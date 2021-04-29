@@ -1,0 +1,30 @@
+.green {
+  background-image: url(assets/banner1.png);
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  height: 10vh;
+}
+
+.orange {
+  background-image: url(assets/banner2.png);
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  height: 10vh;
+}
+
+.navbar-logo {
+  height: 8vh;
+  margin-left: 25px;
+}
+
+@media screen and (min-width:700px){
+    .navbar-logo {
+        margin-left: 50px;
+      }
+}

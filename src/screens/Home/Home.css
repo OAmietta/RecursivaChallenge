@@ -1,0 +1,38 @@
+.Home {
+    background-color: #666666;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.nav {
+    background-color: teal;
+}
+.logo {
+    height: 100px;
+    width: 100px;
+    background: #000;
+}
+
+.portada {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(119, 119, 119);
+    align-items: center;
+}
+
+.summerSale {
+    height: 95vh;
+}
+.btn {
+    background-color: #f33b58;
+    border: 1px solid #d54570;
+    color: #ffff;
+    height: 30px;
+    width: 115px;
+}
+.btn:hover {
+    cursor: pointer;
+    opacity: .8;
+}

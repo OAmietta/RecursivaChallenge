@@ -1,35 +1,24 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./App.css";
+import Home from "./screens/Home/Home";
+import Categories from "./screens/Categories/Categories";
+import Products from "./screens/Products/Products";
+import Payment from "./screens/Payment/Payment";
 
 export default function App() {
   return (
     <Router>
       <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/users">Users</Link>
-            </li>
-          </ul>
-        </nav>
-
         <Switch>
-          <Route path="/about">
-            <About />
+          <Route path="/categories">
+            <CategoriesScreen />
           </Route>
-          <Route path="/users">
-            <Users />
+          <Route path="/products">
+            <ProductsScreen />
+          </Route>
+          <Route path="/payment">
+            <PaymentScreen />
           </Route>
           <Route path="/">
             <Home />
@@ -40,14 +29,14 @@ export default function App() {
   );
 }
 
-function Home() {
-  return <h2>Home</h2>;
+function CategoriesScreen() {
+  return <Categories />;
 }
 
-function About() {
-  return <h2>About</h2>;
+function ProductsScreen() {
+  return <Products />;
 }
 
-function Users() {
-  return <h2>Users</h2>;
+function PaymentScreen() {
+  return <Payment />;
 }
