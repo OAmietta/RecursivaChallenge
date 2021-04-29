@@ -60,7 +60,7 @@ export const products = [
     idCategory: 3,
     name: "SIMPLE",
     img: simple,
-    description: "Helado simple 1 bocha.",
+    description: "Helado simple 1 bocha a elección. Gustos disponibles: Vainilla, Chocolate o Frutilla.",
     price: "$40",
   },
   {
@@ -68,7 +68,7 @@ export const products = [
     idCategory: 3,
     name: "ESPECIAL",
     img: especial,
-    description: "Especial con 3 bochas a elección.",
+    description: "Especial con 3 bochas a elección. Gustos disponibles: Vainilla, Chocolate o Frutilla.",
     price: "$80",
   },
   {
@@ -76,7 +76,7 @@ export const products = [
     idCategory: 3,
     name: "BAÑADO",
     img: bañado,
-    description: "Bañado con distintas capas, 1 bocha.",
+    description: "Bañado con distintas capas, 1 bocha. Gustos disponibles: Vainilla, Chocolate o Frutilla.",
     price: "$70",
   },
   {
@@ -84,7 +84,7 @@ export const products = [
     idCategory: 3,
     name: "CONFITADOS",
     img: confitados,
-    description: "Doble cucurucho con helado y confites.",
+    description: "Doble cucurucho con helado y confites. Gustos disponibles: Vainilla, Chocolate o Frutilla.",
     price: "$80",
   },
 ];

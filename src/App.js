@@ -4,6 +4,7 @@ import "./App.css";
 import Home from "./screens/Home/Home";
 import Categories from "./screens/Categories/Categories";
 import Products from "./screens/Products/Products";
+import ProductDetails from "./screens/ProductDetails/ProductDetails";
 import Payment from "./screens/Payment/Payment";
 
 export default function App() {
@@ -14,8 +15,11 @@ export default function App() {
           <Route path="/categories">
             <CategoriesScreen />
           </Route>
-          <Route path="/products">
+          <Route path="/products/:id">
             <ProductsScreen />
+          </Route>
+          <Route path="/product-details/:id">
+            <ProductDetailsScreen/>
           </Route>
           <Route path="/payment">
             <PaymentScreen />
@@ -35,6 +39,10 @@ function CategoriesScreen() {
 
 function ProductsScreen() {
   return <Products />;
+}
+
+function ProductDetailsScreen() {
+  return <ProductDetails />;
 }
 
 function PaymentScreen() {
