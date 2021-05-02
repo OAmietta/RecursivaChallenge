@@ -1,3 +1,12 @@
+# Instructions
+
+-Download .ZIP, extract.
+-Open the folder with a code editor (Visual Studio Code).
+-In terminal:
+  -cd challenge.
+  -npm install.
+  -npm start.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
