@@ -1,61 +1,30 @@
 .Categories {
-    background: rgb(255, 255, 255);
-    height: 85vh;
-    margin: 20px 10vw;
-    display: flex;
-    flex-direction: column;
-   
+  background: rgb(255, 255, 255);
+  height: 80vh;
+  margin: 20px 10vw;
+  display: flex;
+  flex-direction: column;
 }
 
 .Categories h4 {
-    color: rgba(0, 0, 0, 0.582);
+  color: rgba(0, 0, 0, 0.582);
 }
 
 .content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.buttons {
-    background: rgb(255, 255, 255);
-    height:50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
+@media screen and (min-width: 900px) {
+  .Categories {
+    margin: 20px 10vw;
+  }
 
-.buttons button {
-    height: 25px;
-    width: 130px;
-    color: white;
-    border-radius: .3em;
-    margin: 15px;
-    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.37);
-    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.37);
-    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.37);
-    
-}
-
-.buttons button:hover {
-    cursor: pointer;
-    opacity: .8;
-}
-
-.buttons .pay {
-    background-color: green;
-    border: 1px solid green;
-}
-
-.buttons .cancel {
-    background-color: red;
-    border: 1px solid red;
-}
-
-@media screen and (min-width:900px){
-    .Categories {
-        margin: 20px 25vw;
-    }
+  .Categories h4 {
+    margin-left: 3.2%;
+    font-size: 30px;
+    font-weight: normal;
+  }
 }

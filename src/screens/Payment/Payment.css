@@ -10,7 +10,7 @@
 .total-container {
   background: white;
   width: 60%;
-  height: 10vh;
+  height: 15vh;
   margin-top: 50px;
   border-radius: 0.6em;
   /*Flexbox*/
@@ -25,13 +25,14 @@
 }
 
 .payment-total p {
-  font-size: 20px;
+  font-size: 30px;
   letter-spacing: -1px;
 }
 
 .payment-total h1 {
   color: rgba(0, 0, 0, 0.582);
   letter-spacing: -2px;
+  font-size: 40px;
 }
 
 .payment-buttons {
@@ -47,10 +48,12 @@
 }
 
 .gr-btn {
-  height: 25px;
-  width: 130px;
+  height: 40px;
+  width: 200px;
+  font-size: 15px;
+  font-weight: normal;
   background-color: green;
-  border: 1px solid green;
+  border: none;
   color: white;
   border-radius: 0.3em;
   margin: 8px;
@@ -60,10 +63,11 @@
 }
 
 .rd-btn {
-  height: 25px;
-  width: 130px;
+ height: 40px;
+  width: 200px;
+  font-size: 15px;
   background-color: red;
-  border: 1px solid red;
+  border: none;
   color: white;
   border-radius: 0.3em;
   margin: 8px;
@@ -166,7 +170,7 @@
   padding-left: 10px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .logo {
     margin: 10px;
     height: 60px;
@@ -175,6 +179,7 @@
   .total-container {
     width: 80%;
     margin-top: 100px;
+    margin-bottom: -20px;
     height: 12vh;
     /*Flexbox*/
     display: flex;
@@ -210,21 +215,24 @@
   .gr-btn {
     height: 25px;
     width: 110px;
+    font-size: 13px;
   }
 
   .rd-btn {
     height: 25px;
     width: 110px;
+    font-size: 13px;
   }
 
   .payment-info-container {
     width: 80%;
     margin: 35px 0px;
+    margin-bottom: 80px;
   }
 
   .payment-ways-container {
-      display: flex;
-      justify-content: center;
+    display: flex;
+    justify-content: center;
   }
 
   .payment-ways-container p {
@@ -249,9 +257,16 @@
     height: auto;
   }
   .forms-container {
-   margin: 5px 0px;
+    margin: 5px 0px;
+  }
+  .form .input {
+    height: 20px;
+  }
+  .form .short-input{
+    height: 20px;
   }
   .form .tiny-input {
     width: 20%;
+    height: 20px;
   }
 }

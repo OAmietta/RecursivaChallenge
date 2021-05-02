@@ -1,11 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import Navbar from "components/Navbar/Navbar";
 import Card from "components/Card/Card";
 import { categories } from "constants/data";
 import "./Categories.css";
 
 export default function Categories() {
+  let history = useHistory();
+
   return (
     <>
       <Navbar color="green" />
@@ -24,10 +26,12 @@ export default function Categories() {
         </div>
         <div className="buttons">
           <Link to="/payment">
-            <button className="pay">Pagar</button>
+            <button className="pay">Continuar</button>
           </Link>
           <Link to="/">
-            <button className="cancel">Cancelar Orden</button>
+            <button className="cancel" onClick={() => history.goBack()}>
+              Volver
+            </button>
           </Link>
         </div>
       </div>

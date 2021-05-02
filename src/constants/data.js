@@ -24,12 +24,12 @@ export const categories = [
   },
   {
     id: 3,
-    name: "CUCURUCHO",
+    name: "CUCURUCHOS",
     img: cucurucho,
   },
   {
     id: 4,
-    name: "CHOCOLATE",
+    name: "CHOCOLATES",
     img: chocolate,
   },
   {

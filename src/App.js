@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
+/*Screens imports*/ 
 import Home from "./screens/Home/Home";
 import Categories from "./screens/Categories/Categories";
 import Products from "./screens/Products/Products";
@@ -15,10 +16,10 @@ export default function App() {
           <Route path="/categories">
             <CategoriesScreen />
           </Route>
-          <Route path="/products/:id">
+          <Route path="/products/:name/:id">
             <ProductsScreen />
           </Route>
-          <Route path="/product-details/:id">
+          <Route path="/product-details/:name/:id">
             <ProductDetailsScreen/>
           </Route>
           <Route path="/payment">

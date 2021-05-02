@@ -35,7 +35,13 @@
 
 @media screen and (min-width: 700px) {
   .Card {
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 280px;
+    margin: 15px 30px;
+  }
+
+  .Card h1 {
+    font-size: 20px;
+    margin-top: -40px;
   }
 }

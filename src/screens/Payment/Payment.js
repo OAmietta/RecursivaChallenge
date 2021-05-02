@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import "./Payment.css";
 import logo from "assets/logo.png";
 import tarjetas from "assets/tarjetas.png";
 import tarjetas2 from "assets/tarjetas2.png";
 
 export default function Payment() {
+  let history = useHistory();
   const [ownerName, setOwnerName] = useState("");
   const [cardNumber, setCardNumber] = useState();
   const [expirationMonth, setExpirationMonth] = useState();
@@ -24,7 +25,7 @@ export default function Payment() {
           </div>
           <div className="payment-buttons">
             <button className="gr-btn">Ver Detalle</button>
-            <button className="rd-btn">Cancelar Orden</button>
+            <button className="rd-btn" onClick={() => history.goBack()}>Cancelar Orden</button>
           </div>
         </div>
         <div className="payment-info-container">
