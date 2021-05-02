@@ -23,8 +23,8 @@
   margin-left: 25px;
 }
 
-@media screen and (min-width:700px){
-    .navbar-logo {
-        margin-left: 50px;
-      }
+@media screen and (min-width: 700px) {
+  .navbar-logo {
+    margin-left: 50px;
+  }
 }

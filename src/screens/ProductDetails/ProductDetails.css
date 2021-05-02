@@ -80,7 +80,6 @@
 }
 
 .description-container {
-  /* background-color: rgb(189, 182, 182); */
   font-size: 30px;
   text-align: left;
   margin: 8%;
@@ -90,7 +89,6 @@
 }
 
 .buy-container {
-  /* background-color: rgb(189, 182, 182); */
   font-size: 35px;
   display: flex;
   justify-content: space-between;
@@ -111,7 +109,6 @@
   height: 40px;
   width: 200px;
   font-size: 20px;
-  /* margin-top: 18px; */
   font-weight: normal;
   color: white;
   border-radius: 0.3em;
@@ -177,12 +174,11 @@
 
   .info-container {
     height: 100%;
-    border-radius: .3em;
+    border-radius: 0.3em;
     width: 90%;
   }
 
   .description-container {
-    /* background-color: rgb(189, 182, 182); */
     font-size: 15px;
     text-align: left;
   }
@@ -205,6 +201,5 @@
     font-size: 13px;
     color: white;
     border-radius: 0.3em;
-
   }
 }

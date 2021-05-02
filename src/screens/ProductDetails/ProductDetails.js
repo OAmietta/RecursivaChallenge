@@ -29,7 +29,7 @@ export default function ProductDetails() {
               <div className="buy-container">
                 <h4 className="h4"> {products[id - 1].price} </h4>
                 <Link to="/payment">
-                <button className="buy hover">Comprar</button>
+                  <button className="buy hover">Comprar</button>
                 </Link>
               </div>
             </div>

@@ -2,7 +2,7 @@ import React from "react";
 import { Link, useHistory, useParams } from "react-router-dom";
 import Navbar from "components/Navbar/Navbar";
 import Card from "components/Card/Card";
-import Slider from "components/Slider/Slider";
+import Bar from "components/Bar/Bar";
 import { categories, products } from "constants/data";
 import "./Products.css";
 
@@ -13,7 +13,7 @@ export default function Products() {
   return (
     <>
       <Navbar color="orange" />
-      <Slider link="/products/" />
+      <Bar />
       <div className="Products">
         <h4>{categories[id - 1].name}</h4>
         <div className="content">
@@ -32,7 +32,9 @@ export default function Products() {
             <button className="pay">Continuar</button>
           </Link>
           <Link to="/">
-            <button className="cancel" onClick={() => history.goBack()}>Volver</button>
+            <button className="cancel" onClick={() => history.goBack()}>
+              Volver
+            </button>
           </Link>
         </div>
       </div>

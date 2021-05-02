@@ -1,79 +1,77 @@
 .Products {
-    background: rgb(255, 255, 255);
-    height: 60vh;
-    margin: 20px 10vw;
-    display: flex;
-    flex-direction: column;
+  background: rgb(255, 255, 255);
+  height: 60vh;
+  margin: 20px 10vw;
+  display: flex;
+  flex-direction: column;
 }
 
 .Products h4 {
-    color: rgba(0, 0, 0, 0.582);
+  color: rgba(0, 0, 0, 0.582);
 }
 
 .content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .buttons {
-    background: rgb(255, 255, 255);
-    height:50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+  background: rgb(255, 255, 255);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .buttons button {
-    height: 25px;
-    width: 130px;
-    font-size: 13px;
-    color: white;
-    border-radius: .3em;
-    margin: 15px;
-    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.37);
-    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.37);
-    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.37);
-    
+  height: 25px;
+  width: 130px;
+  font-size: 13px;
+  color: white;
+  border-radius: 0.3em;
+  margin: 15px;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.37);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.37);
 }
 
 .buttons button:hover {
-    cursor: pointer;
-    opacity: .8;
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 .buttons .pay {
-    background-color: green;
-    border: none;
+  background-color: green;
+  border: none;
 }
 
 .buttons .cancel {
-    background-color: red;
-    border:none;
+  background-color: red;
+  border: none;
 }
 
-@media screen and (min-width:900px){
-    .Products {
-        margin: 20px 10vw;
-    }
+@media screen and (min-width: 900px) {
+  .Products {
+    margin: 20px 10vw;
+  }
 
-    .Products h4 {
-        margin-left: 3.2%;
-        font-size: 30px;
-        font-weight: normal;
-      }
+  .Products h4 {
+    margin-left: 3.2%;
+    font-size: 30px;
+    font-weight: normal;
+  }
 
-    .buttons {
-        margin-top: 20px;
-    }
+  .buttons {
+    margin-top: 20px;
+  }
 
-    .buttons button {
-        height: 40px;
-        width: 200px;
-        margin: 30px;
-        font-size: 20px;
-        font-weight: normal;
-    }
+  .buttons button {
+    height: 40px;
+    width: 200px;
+    margin: 30px;
+    font-size: 20px;
+    font-weight: normal;
+  }
 }

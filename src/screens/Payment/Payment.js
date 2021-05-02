@@ -8,10 +8,10 @@ import tarjetas2 from "assets/tarjetas2.png";
 export default function Payment() {
   let history = useHistory();
   const [ownerName, setOwnerName] = useState("");
-  const [cardNumber, setCardNumber] = useState();
-  const [expirationMonth, setExpirationMonth] = useState();
-  const [expirationYear, setExpirationYear] = useState();
-  const [securityCode, setSecurityCode] = useState();
+  const [cardNumber, setCardNumber] = useState("");
+  const [expirationMonth, setExpirationMonth] = useState("");
+  const [expirationYear, setExpirationYear] = useState("");
+  const [securityCode, setSecurityCode] = useState("");
   return (
     <>
       <Link to="/">
@@ -25,7 +25,9 @@ export default function Payment() {
           </div>
           <div className="payment-buttons">
             <button className="gr-btn">Ver Detalle</button>
-            <button className="rd-btn" onClick={() => history.goBack()}>Cancelar Orden</button>
+            <button className="rd-btn" onClick={() => history.goBack()}>
+              Cancelar Orden
+            </button>
           </div>
         </div>
         <div className="payment-info-container">

@@ -1,6 +1,7 @@
 .Payment {
   background: linear-gradient(90deg, #016dcd, #038aca, #0f93d1);
   height: 100vh;
+  /*Flexbox*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,7 +64,7 @@
 }
 
 .rd-btn {
- height: 40px;
+  height: 40px;
   width: 200px;
   font-size: 15px;
   background-color: red;
@@ -130,7 +131,6 @@
 .form {
   width: 100%;
   height: 50px;
-  /* background-color: red; */
 }
 
 .form p {
@@ -188,12 +188,13 @@
   }
   .payment-total {
     margin: 0px;
+    color: rgba(0, 0, 0, 0.582);
+    width: 100%;
+    /*Flexbox*/
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: rgba(0, 0, 0, 0.582);
-    width: 100%;
   }
 
   .payment-total p {
@@ -231,6 +232,7 @@
   }
 
   .payment-ways-container {
+    /*Flexbox*/
     display: flex;
     justify-content: center;
   }
@@ -240,6 +242,7 @@
     font-size: 18px;
   }
   .cards-img-container {
+    /*Flexbox*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -262,7 +265,7 @@
   .form .input {
     height: 20px;
   }
-  .form .short-input{
+  .form .short-input {
     height: 20px;
   }
   .form .tiny-input {
